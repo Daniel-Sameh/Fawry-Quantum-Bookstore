@@ -6,6 +6,8 @@
 
 ## Main function testing adding, buying, removing books
 
+### Console Output without errors:
+
 ```
 Current Inventory Products:
 Book: Designing Data Intensive Applications, Quantity: 12
