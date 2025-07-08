@@ -1,5 +1,7 @@
 # Quantum Bookstore
 
+In this challenge I chose to implement the abstract factory design pattern to decouple creating different kinds of products and their types, and all client codes are coded to abstractions not implementations, this makes the code extensible with different kind of products in the future without modifications to existing working code.
+
 ## Class Diagram
 
 ![Quantum Bookstore Class Diagram](docs/QuantumBookstore.drawio%20(2).svg)
