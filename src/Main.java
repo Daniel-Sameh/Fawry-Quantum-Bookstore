@@ -59,7 +59,7 @@ public class Main {
         //Adding and Removing a book
         Map<String, Object> book3Properties = Map.of("title", "A Great Book",
                 "price", 120,"year", Year.of(2021));
-        inventory.addProduct(paperBookCreator, "ISBN2", 20, book1Properties);
+        inventory.addProduct(paperBookCreator, "ISBN2", 20, book3Properties);
         inventory.removeProduct("ISBN2", 5);
         inventory.displayProducts();
         System.out.println("=====================================");
